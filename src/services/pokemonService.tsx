@@ -6,3 +6,10 @@ export const fetchPokemon = async (id: string) => {
 
   return data;
 };
+
+export const fetchPokemons = async () => {
+  const response = await fetch(`${BASE_URL}/pokemon/`);
+  const data = await response.json();
+
+  return data.results;
+}

@@ -1,9 +1,9 @@
 import React from 'react';
-import PokemonCard from './components/pokemonCard';
+import PokemonList from './components/pokemonList';
 
 const App = () => {
   return (
-    <PokemonCard id={'1'}/>
+    <PokemonList />
   )
 }
 export default App;

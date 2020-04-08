@@ -5,7 +5,7 @@ type PokemonCardProps = {
   id: string,
 }
 
-type Pokemon = {
+export type Pokemon = {
   name: string,
 }
 
