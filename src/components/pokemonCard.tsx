@@ -30,9 +30,11 @@ export const PokemonCard = (props: PokemonCardProps) => {
 };
 
 const PokemonCardWrapper = (props: PokemonCardProps) => {
+  const { id } = props;
+  
   return (
     <PokemonCard
-      id={'1'}
+      id={id}
     />
   );
 };
